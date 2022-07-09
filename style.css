@@ -145,11 +145,32 @@
 }
 
 .first {
-    background-size: 100%;
+    padding: 0;
+    margin: 20px;
 }
 
 .first img {
     width: 100%;
+}
+
+.first h3,
+p {
+
+    padding-left: 20px;
+}
+
+.first img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.first {
+    border-radius: 10px;
+}
+
+
+.first p {
+    padding-bottom: 0;
 }
 
 .first p {
